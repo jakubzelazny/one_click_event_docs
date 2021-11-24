@@ -22,3 +22,11 @@ Url: https://hook.integromat.com/58bailvfca7xawk7x4d0a1x52t4d9tgd
 ```
 
 The `start_date` and `end_date` parameters must be in [ISO format](https://en.wikipedia.org/wiki/ISO_8601): `YYYY-MM-DDThh:mm:ss`. The delimiters can be omitted.
+
+## Response
+
+Response contains four values:
+- `google` - link to Google Calendar
+- `microsoft` - link to Outlook 365/Office.com Calendar
+- `yahoo` - link to Yahoo Calendar
+- `calendar_file` - a file that allows to add event to Apple Calendar and Outlook (offline calendars)
